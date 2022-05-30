@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="JSP.exe" version="1.0.0.12" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
+  <asmv1:assemblyIdentity name="JSP.exe" version="1.0.0.13" publicKeyToken="4046373077193bcf" language="neutral" processorArchitecture="msil" type="win32" />
   <description asmv2:iconFile="JSP.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
@@ -307,14 +307,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="JSP.exe" size="202240">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="JSP.exe" size="203232">
       <assemblyIdentity name="JSP" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>SUH6ltEgleHi2r5RKm8meBLln64tnYgHHJfAVg1wFyU=</dsig:DigestValue>
+        <dsig:DigestValue>orhRXv9otHjgAVM9hzu9gLSw5vSRGv5u6F0Pp9Jx/TI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -698,4 +698,4 @@
       <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}"/>-->
     </application>
   </compatibility>
-</asmv1:assembly>
+<publisherIdentity name="CN=AFTAB-HAZELSOFT\Aftab" issuerKeyHash="f6a454004c1655fecc3be47a0f14cf2d7f241b5a" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ap21ul3mi3spSH3UoABFa1jiaSyBHbK6Dv/tuXt8whM=</DigestValue></Reference></SignedInfo><SignatureValue>XUzhfrdJzx+DbF9u99MenltfYiChz+XWevUz2d5JAECHeyzPI+NqAQBom9Hy51cr1kd5nBrpTPN6xSZSWJRChsXI0wPzOypA1CUgIW2/jT9kNqRGkcesVYpu77SHHsz6ncFK9fqcQAfIC8PnYPr/IuHF9yirMB+F6EE6FAvmryI=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>ytNwtxqMP/9mUBJDiigZCTsUjPMhL/SZk74TFa5XighpzHrkOw/QT4H8/mFqU96owtVtDQOBBYceiOaGiiTbd6eKN6b9HfuBEXfk5B79WIL5PDLdh/LFP775UOmcr0RAetiHmmGQZrLhlwIX7tHNGXjQViT8BTRdhZ+zBcMfonE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="13c27c7bb9edff0ebab21d812c69e2586b4500a0d47d48297b8be65dbab59d6a" Description="" Url=""><as:assemblyIdentity name="JSP.exe" version="1.0.0.13" publicKeyToken="4046373077193bcf" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=AFTAB-HAZELSOFT\Aftab</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>t372YLltw8zcAsq4EnyFOL6WU5irSpZIhPPy2aeVrjo=</DigestValue></Reference></SignedInfo><SignatureValue>N/KmuSuDdMF8ZqWlqdNSGOxU+ua2En64Fa1HQj18CEj98h3Ots8dUeHG8Y85amciLoiGk2DplQEO+OI30M2yCJvUEvH6/IHAwjDasFtg3aEaWu5iuM0efbnXtmmOOdQHT9qSgf09LW3ccL0+U/bZGimbfVJVH1uRwWXzuKhcRD4=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>ytNwtxqMP/9mUBJDiigZCTsUjPMhL/SZk74TFa5XighpzHrkOw/QT4H8/mFqU96owtVtDQOBBYceiOaGiiTbd6eKN6b9HfuBEXfk5B79WIL5PDLdh/LFP775UOmcr0RAetiHmmGQZrLhlwIX7tHNGXjQViT8BTRdhZ+zBcMfonE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQHrroH3la1ZJCJn4ZRhNE2DANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioAQQBGAFQAQQBCAC0ASABBAFoARQBMAFMATwBGAFQAXABBAGYAdABhAGIwHhcNMjIwNTMwMTIwMjAwWhcNMjMwNTMwMTgwMjAwWjA1MTMwMQYDVQQDHioAQQBGAFQAQQBCAC0ASABBAFoARQBMAFMATwBGAFQAXABBAGYAdABhAGIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMrTcLcajD//ZlASQ4ooGQk7FIzzIS/0mZO+ExWuV4oIacx65DsP0E+B/P5halPeqMLVbQ0DgQWHHojmhook23enijem/R37gRF35OQe/ViC+Twy3YfyxT+++VDpnK9EQHrYh5phkGay4ZcCF+7RzRl40FYk/AU0XYWfswXDH6JxAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAGFYf3KyV1j7npBfgXxFBdHl3PpCTO3Oh6aVOhg4W6TyCPMaRKC0/IuZL2M+nNTwEeMHAsx6o9DdcH7EgQxbfWaXv4wi76vvLKwhgoh6gd+iLeVGZnLhBvvZ430Jgvpd7hEeVhy3kjF8jPDK1X9R4Xzwy8RikdFCXB1LsVz88IBk=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
